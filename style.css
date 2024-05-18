@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(pink, aqua);
+}
+form p{
+    font-size: 2rem;
+    color: rgb(105, 14, 158);
+}
+.form-data{
+    width: 100%;
+    margin-top: 20px;
+}
+.form-data label{
+    font-size: 1.3rem;
+}
+.form-data input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    outline: hidden;
+}
+.submit-button{
+    padding: 10px 15px;
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto 0;
+}
+.submit-button:hover{
+    background-color: black;
+    color: white;
+}
+.below-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.below-div input{
+    margin: 10px 0;
+    padding: 8px;
+    outline: hidden;
+    width: 100%
+}
